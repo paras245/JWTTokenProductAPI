@@ -134,7 +134,7 @@ app.MapGet("/weatherforecast", () =>
 
 
 
-//Jwt Token Issuer
+//Jwt Token Issuer endpoint
 app.MapPost("/login", (UserLogin request, IConfiguration config) =>
 {
     // Example hardcoded validation (replace with DB validation)
