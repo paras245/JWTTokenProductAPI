@@ -137,7 +137,7 @@ app.MapGet("/weatherforecast", () =>
 //Jwt Token Issuer endpoint
 app.MapPost("/login", (UserLogin request, IConfiguration config) =>
 {
-    // Example hardcoded validation (replace with DB validation)
+    // Example hardcoded validation (replace with DB validation) need work to get from backend
     if (request.UserName != "Paras" || request.Password != "123")
         return Results.Unauthorized();
 
